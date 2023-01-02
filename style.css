@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black ;
+} 
+     /* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nav-list{
+    display: flex;
+    width:50%;
+}
+
+
+
+.logo{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.right-nav{
+    width: 50%;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.first-class{
+    background-image: url("images/home-img.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+
+}
+
+h1,p{
+    color: white;
+}
+.main-box{
+    max-width: 50%;
+    padding-top: 14rem;
+    margin-left: 40px;
+}
+
+
+.big-txt{
+    font-size: 60px;
+
+}
+
+.sml-txt{
+    font-size: 26px;
+    color: antiquewhite;
+}
+.btn {
+    border: 4px solid #584844;
+    margin-top: 1rem;
+    padding: 7px;
+    background: #584844;
+    color: #Fff;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+.secound-class{
+    width: 100%;
+    height:70vh;
+    
+}
+.about{
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+.clr-span{
+    color: white;
+
+}
+
+/* .content{
+    background:;
+    width: 50%;
+    font-size: 30px;
+    margin-left: 750px;
+    margin-top: -476px;
+}
+.img-about{
+    width: 50%;
+}
+
+ */
+.img-about img {
+    height: 400px;
+    width: 100%;
+}
+.scd-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 60px;
+    margin: 25px 80px 0px;
+}
+.col {
+    width: 100%;
+}
+h2{
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.menu{
+    justify-content: center;
+    border: 2px solid white;
+    padding: 50px;
+    text-align: center;
+}
+.menu-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin: 50px 100px 0px;
+}
+.ph1{
+    margin-top: 50px;
+}
+
+.custpmer-review h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+
+.customer-main {
+    margin: 50px 100px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+
+.customer-main-div {
+    
+    text-align: center;
+    border: 2px solid white;
+    padding: 50px;
+}
+
+.customer-main-div img {
+    width: 33%;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 50px;
+
+}
+h3{
+    color: white;
+}
+
+.con-us {
+    display: flex;
+}
+.btn-3{
+    padding: 30px;
+}
+
+.form-div, .map {
+    width: 50%;
+}
+
+.form input {
+    width: 80%;
+    margin: 0 auto;
+}
+.input-div {
+    padding: 10px 0;
+}
+.btn-sm {
+    width: 10%;
+    margin-left: 235px;
+    padding: 6px;
+}
+.md-touch{
+    font-size: 29px;
+    margin-left: 146px;
+    
+
+}
+
+/* blog */
+
+
+
+/* .blog{
+    display: flex;
+    width: 33%; */
+
+    
+    
+
+h3 {
+    color: white;
+    text-align: center;
+}
+.blog-last {
+    display: flex;
+    margin: 0px 30px;
+    column-gap: 20px;
+}
+.blog{
+    text-align: center;
+    border: 2px solid white;
+    padding: 50px;
+    
+}
+/* footer */
+.footer{
+    background-color: #272c30;
+    height:30vh;
+
+    
+}
+.icon-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.fa{
+    border-radius: 50px;
+}
+.icon-list li {
+    list-style: none;
+    padding: 15px;
+    margin: 0px 5px;
+    border-radius: 50px;
+    border: 1px solid #d8b481;
+    margin: 30px;
+}
+.icon-list li a{
+    font-size: 30px;
+}
+
+
+.atag {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 37px;
+}
+.atag a{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px;
+    color: white;
+}
+.me{
+    text-align: center;
+    margin: 50px;
+}
